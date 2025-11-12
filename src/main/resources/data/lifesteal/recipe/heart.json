@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:diamond_block",
+    "X": "minecraft:obsidian",
+    "Y": "minecraft:netherite_ingot",
+    "Z": "minecraft:gold_block"
+  },
+  "pattern": [
+    "###",
+    "XYX",
+    "ZZZ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lifesteal:heart"
+  }
+}

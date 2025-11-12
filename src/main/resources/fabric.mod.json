@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lifesteal",
+	"version": "${version}",
+	"name": "Lifesteal",
+	"description": "Steal lives",
+	"authors": [
+		"Notch",
+        "cryptoshroud"
+	],
+	"contact": {
+		"homepage": "cryptoShroud@proton.me",
+		"sources": "https://github.com/cryptoshroud/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/learning-fabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.potato.eat.Learningfabric"
+		],
+		"fabric-datagen": [
+			"net.potato.eat.LearningfabricDataGenerator"
+		],
+      "client": [
+        "net.potato.eat.LearningfabricClient"
+      ]
+	},
+	"mixins": [
+		"learning-fabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
